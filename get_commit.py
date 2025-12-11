@@ -6,7 +6,7 @@ from datetime import datetime
 repo_path = "/home/kanjak/Bureau/INT/Projects/rapporto-auto-commito"
 
 repo = Repo(repo_path)
-commits = list(repo.iter_commits('main'))
+commits = list(repo.iter_commits())
 
 today = datetime.now().date()
 
