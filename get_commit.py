@@ -39,7 +39,7 @@ def generate_report():
         print("Aucune intervention technique n'a été réalisée ce jour.")
     else:
         intervention_word = "intervention" if count == 1 else "interventions"
-        print(f"L'équipe technique a réalisé **{count}** {intervention_word} aujourd'hui.")
+        print(f"J'ai réalisé **{count}** {intervention_word} aujourd'hui.")
     print("")
     
     # Details
@@ -60,7 +60,7 @@ def generate_report():
         print("Restant à votre disposition pour tout complément d'information.")
         print("")
         print("Cordialement,")
-        print("L'équipe de Développement")
+        print("Kanjakitude")
 
 if __name__ == "__main__":
     generate_report()
